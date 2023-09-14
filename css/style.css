@@ -16,7 +16,6 @@ header {
 .conteiner {
     width: 80%;
     margin: 0 auto;
-    background-color: white;
 }
 .title {
     color: #e53070;
@@ -27,4 +26,34 @@ header {
     text-align: center;
     font-size: 1rem;
     margin-top: 10px;
+    margin-bottom: 30px;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.clearfix: {
+    content: "";
+    clear: both; 
+    display: table;
+}
+.col {
+    border: 1px solid white;
+    float: left;
+    width: calc(100% / 3);
+}
+.card {
+    background-color: #0f0e17;
+    /* min-height: 200px; */
+    color: white;
+    margin: 10px;
+}
+.guys {
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+    text-align: left;
+}
+#mail {
+    color: #2fa9f4 ;
 }

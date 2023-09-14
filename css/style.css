@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100px;
+}
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.conteiner {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+.title {
+    color: #e53070;
+    text-align: center;
+}
+.paragraph {
+    font-family: 'Red Rose', cursive;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+}
